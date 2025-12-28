@@ -14,10 +14,6 @@ Normally, if you type `*hello` without a closing `*`, Markdown treats it as plai
 | `*a **b** c*` | Nested emphasis | Nested emphasis |
 | `*italic **bold* text**` | Complex overlap | Split at overlap |
 
-## Why I Built This
-
-I wanted to create a rich Markdown editing experience where formatting appears as you type, without needing to close markers immediately. The standard Lezer parser is strict about CommonMark compliance, which makes sense for final rendering but feels clunky during editing.
-
 ## Why I Had to Modify Lezer-Markdown
 
 Here's the important part: this extension couldn't be built using Lezer's normal extension hooks. The parser's delimiter resolution is designed around a strict tree structure that doesn't allow for:
