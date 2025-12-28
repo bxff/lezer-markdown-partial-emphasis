@@ -53,16 +53,6 @@ The implementation follows the same algorithmic complexity as the standard `@lez
 
 Each phase uses similar data structures and operations as the original `resolveMarkers` implementation, so performance characteristics should be comparable.
 
-## Installation
-
-```typescript
-import { markdown } from "@codemirror/lang-markdown"
-import { PartialEmphasis } from "./extension/partial-emphases"
-
-// Use with CodeMirror
-const extensions = [markdown({ extensions: [PartialEmphasis] })]
-```
-
 ## Running the Demo
 
 ```bash
