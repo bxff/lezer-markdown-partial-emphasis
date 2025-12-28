@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd lezer-markdown-delimiterResolvers && npm install && npm run prepare && cd ../demo && bun install && bun run build",
+  "outputDirectory": "demo/dist",
+  "framework": "vite"
+}

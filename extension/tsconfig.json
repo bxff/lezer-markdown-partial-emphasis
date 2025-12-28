@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "paths": {
+      "@lezer/markdown": ["../lezer-markdown-delimiterResolvers/src/markdown.ts"],
+      "@lezer/highlight": ["../demo/node_modules/@lezer/highlight"],
+      "@lezer/common": ["../demo/node_modules/@lezer/common"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["."]
+}

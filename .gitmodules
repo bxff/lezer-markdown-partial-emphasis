@@ -1,0 +1,3 @@
+[submodule "lezer-markdown-delimiterResolvers"]
+	path = lezer-markdown-delimiterResolvers
+	url = https://github.com/bxff/lezer-markdown-delimiterResolvers.git
